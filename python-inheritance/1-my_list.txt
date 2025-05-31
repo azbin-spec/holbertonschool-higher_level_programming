@@ -1,0 +1,94 @@
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()
+
+negative integer
+----------------
+
+.. code-block:: python
+
+    >>> my_list.append(-1)
+    >>> my_list.print_sorted()
+    [-1]
+    >>> my_list.append(-5)
+    >>> print(my_list)
+    [-1, -5]
+    >>> my_list.print_sorted()
+    [-5, -1]
+    >>> print(my_list)
+    [-1, -5]
+    >>> my_list.append(-15)
+    >>> print(my_list)
+    [-1, -5, -15]
+    >>> my_list.print_sorted()
+    [-15, -5, -1]
+    >>> print(my_list)
+    [-1, -5, -15]
+
+
+>>> my_list = MyList()
+
+
+Positive integer
+----------------
+
+.. code-block:: python
+
+    >>> my_list.append(15)
+    >>> my_list.print_sorted()
+    [15]
+    >>> my_list.append(5)
+    >>> print(my_list)
+    [15, 5]
+    >>> my_list.print_sorted()
+    [5, 15]
+    >>> my_list.append(1)
+    >>> print(my_list)
+    [15, 5, 1]
+    >>> my_list.print_sorted()
+    [1, 5, 15]
+    >>> print(my_list)
+    [15, 5, 1]
+
+
+>>> my_list = MyList()
+
+
+Positive and negative integer
+----------------
+
+.. code-block:: python
+
+    >>> my_list.append(1)
+    >>> my_list.append(-1)
+    >>> print(my_list)
+    [1, -1]
+    >>> my_list.print_sorted()
+    [-1, 1]
+    >>> my_list.append(5)
+    >>> my_list.append(-5)
+    >>> print(my_list)
+    [1, -1, 5, -5]
+    >>> my_list.print_sorted()
+    [-5, -1, 1, 5]
+    >>> my_list.append(-15)
+    >>> my_list.append(15)
+    >>> print(my_list)
+    [1, -1, 5, -5, -15, 15]
+    >>> my_list.print_sorted()
+    [-15, -5, -1, 1, 5, 15]
+    >>> print(my_list)
+    [1, -1, 5, -5, -15, 15]
+
+
+>>> my_list = MyList()
+
+
+Positive and negative integer
+----------------
+
+.. code-block:: python
+
+    >>> print(my_list)
+    []
+    >>> my_list.print_sorted()
+    []
