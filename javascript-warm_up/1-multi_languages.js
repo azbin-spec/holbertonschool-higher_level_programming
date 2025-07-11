@@ -1,5 +1,9 @@
 #!/usr/bin/node
 
-const myVar = 'C is fun\nPython is cool\nJavaScript is amazing';
+const firstv = 'C is fun';
+const seconv = 'Python is cool';
+const thirdv = 'JavaScript is amazing';
 
-console.log(myVar);
+console.log(firstv);
+console.log(seconv);
+console.log(thirdv);
